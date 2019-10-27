@@ -86,7 +86,7 @@ void Main_App::onThreadFinished()
 /*create the thread*/
 void Main_App::on_save_button_clicked()
 {
-    if(ui->file_name_lineEdit->text() =="" &&
+    if(ui->file_name_lineEdit->text() =="" ||
        ui->message_textEdit->toPlainText() == "")
     {
         QMessageBox msgBox;
